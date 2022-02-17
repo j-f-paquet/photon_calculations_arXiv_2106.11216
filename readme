@@ -1,0 +1,22 @@
+Photon spectra and v_n{SP} calculation from:
+---
+Multimessenger heavy-ion collision physics
+Charles Gale( McGill U.) , Jean-François Paquet( Duke U.) , Björn Schenke( Brookhaven) , Chun Shen( RIKEN BNL and Wayne State U.)
+Phys.Rev.C 105 (2022) 1, 014909
+e-Print: 2106.11216 [nucl-th]
+DOI: 10.1103/PhysRevC.105.014909 (publication)
+https://inspirehep.net/literature/2010837
+https://arxiv.org/abs/2106.11216
+---
+
+Includes prompt photons and thermal photons
+Thermal photons are either from the "pre-equilibrium phase" (KoMPoST) or the hydrodynamics phase (hydro)
+
+Regarding prompt photons, keep in mind that they very likely have a considerable uncertainty at low p_T
+(current prompt photon calculation possibly not very reliable below 1-1.5 GeV)
+
+The first column of every file is the transverse momentum (p_T) in GeV
+The second column is 1/(2*pi*p_T) dN/(dp_T*dy) at rapidity y=0, in GeV^-2
+Third to eighth columns is the v_1{SP}, v_2{SP}, v_3{SP}, ...
+
+See paper for details
